@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.watch {
+  width: 30vmin; /* Usando unidades "vmin" para manter a proporção com base no viewport */
+  height: 40vmin;
+  background-color: #333;
+  border-radius: 50%;
+  padding: 5vmin; /* Ajustando o preenchimento para manter proporções */
+  box-shadow: 0 0 5vmin rgba(0, 0, 0, 0.5); /* Ajustando a sombra */
+}
+
+.screen {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2vmin; /* Ajustando o preenchimento para manter proporções */
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 1vmin 2vmin; /* Ajustando o preenchimento para manter proporções */
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 1vmin; /* Ajustando a margem para manter proporções */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
